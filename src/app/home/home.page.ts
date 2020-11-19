@@ -11,20 +11,15 @@ import { NoticiasService } from '../services/noticias.service';
 })
 export class HomePage implements OnInit {
   
-  sectionI:SectionsI;
+  section:Array<SectionsI> = [];
 
-  
 
-  constructor(public noticiasService:NoticiasService) { }
+  constructor(public noticiasService:NoticiasService) { 
+    this.section = this.noticiasService.getNoticias();
+  }
 
   ngOnInit() {
   }
 
-  getNoticias(){
-      const sections = this.noticiasService.getAll();
-      res.status(200).json(sections);
-    
-    
-  }
 
 }

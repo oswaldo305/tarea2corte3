@@ -1,5 +1,5 @@
 export interface NoticiasI {
-    idNotica:number,
+    idNoticia:number,
     preview:string,
     img: string,
     categoria:string,
