@@ -1,11 +1,8 @@
+import { NoticiasI } from './noticias-i';
+
 export interface SectionsI {
-    header: {
-        title: string
-      }
-      body: {
-        img: string
-        content: string
-        imgSize?: number
-        contentSize?: number
-      }
+    id:number,
+    title: string,
+    icon: string,
+    noticia:Array<NoticiasI>
 }
