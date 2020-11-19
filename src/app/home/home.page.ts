@@ -10,16 +10,20 @@ import { NoticiasService } from '../services/noticias.service';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+  
+  sectionI:SectionsI;
 
   
 
-  constructor(notiServ:NoticiasService) { }
+  constructor(public noticiasService:NoticiasService) { }
 
   ngOnInit() {
   }
 
   getNoticias(){
-   
+      const sections = this.noticiasService.getAll();
+      res.status(200).json(sections);
+    
     
   }
 
