@@ -1,16 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { SectionsI } from '../interfaces/sections-i';
 
-interface SectionsI {
-  header: {
-    title: string
-  }
-  body: {
-    img: string
-    content: string
-    imgSize?: number
-    contentSize?: number
-  }
-}
+
 
 @Component({
   selector: 'app-home',
@@ -47,7 +38,7 @@ export class HomePage implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor(sectionI:SectionsI) { }
 
   ngOnInit() {
   }
