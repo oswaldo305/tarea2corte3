@@ -10,19 +10,23 @@
 <ion-content>
   <ion-searchbar showCancelButton="always"></ion-searchbar>
 
-  <ion-grid class="section" *ngFor="let s of section">
+  <ion-grid class="section" *ngFor="let s of section; let i = index">
     <ion-row class="header">
-      <ion-col class="title">
+      <ion-col class="title" id="{{'a'+i}}">
         {{s.title}}
       </ion-col>
     </ion-row>
 
-    <ion-row class="body" *ngFor="let n of noticia">
+    <ion-row class="body" *ngFor="let n of noticia[i]; let i = index">
       <ion-col >
-        <img [src]="s.noticia[0].img" alt="">
+        <img [src]="n.img" alt="">
       </ion-col>
       <ion-col  class="content">
-        {{s.noticia[0].preview}}
+        {{n.preview}}
+        <br>
+        <ion-chip *ngFor="let c of categoria[i]">
+          <ion-label>{{c.nombre}}</ion-label>
+        </ion-chip>
       </ion-col>
     </ion-row>
 

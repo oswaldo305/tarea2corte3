@@ -1,37 +1,56 @@
 [
-{
-    "id":1,
-    "title": "Clima",
-    "noticia":[
-        {
-        "idNoticia":1,
-        "preview":"Los rayos, los truenos, todo era impresionante así fueron las horas de terror en Providencia Un instructor de buceo que estaba con 12 turistas contó la angustia vivida en uno de los refugios durante el paso del huracán Iota.",
-        "img": "https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2020/11/17/5fb4096f90e75.r_1605638314987.0-4-1024-512.jpeg",
-        "categoria":"Desastres",
-        "contenido":"Mientras San Andrés, Providencia y Santa Catalina sacan fuerzas para recuperarse del huracán Iota , son muchos los testimonios que se siguen conociendo, relatos de horror. Nicolás Gómez, instructor de buceo, estaba con 12 turistas cuando la situación comenzó a empeorar: la isla se estremecía y lo peor estaba por venir. Por eso buscaron donde resguardarse. “Fue una noche muy difícil, mucha agua le entraba al refugio. Nosotros estábamos bien, no le pasó nada estructuralmente, pero entraba mucha agua. Una noche muy difícil: el viento era increíble, los sonidos, los rayos, los truenos, todo era impresionante, caían árboles, oíamos que volaban techos, pero no veíamos absolutamente nada”, recuerda Gómez. No es exageración, Aileen Ortiz, otra afectada, puede dar fe de ello."
-        },
-        {
-        "idNoticia":2,
-        "preview":"El presidente Iván Duque recorrió este martes San Andrés y Providencia y aseguró que la prioridad será reconstruir viviendas, remover escombros y restablecer el servicio de agua tras el paso de Iota en la madrugada del lunes. ",
-        "img": "https://www.elespectador.com/resizer/Quz5NSvdBB_TdNCtXN2HEF7TSXY=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/HMLSWAUJ3VCJPOXG2SAH3GUPUI.jpg",
-        "categoria":"Huracan",
-        "contenido":"Los habitantes de San Andrés y Providencia vivieron el verdadero terror. Sin comunicaciones, atemorizados, evadiendo el sueño y encerrados en los baños. El servicio de electricidad en San Andrés se perdió en varias zonas desde la madrugada del pasado lunes y en sectores como San Luis, el Cove y Backers Hill, por ejemplo, los raizales siguen a oscuras. El mar rugía, postes cayeron, techos de láminas volaron. Los árboles cerca a las viviendas frágiles amenazaban con desplomarse. Fuertes olas erosionaron parte de la vía circunvalar y cubrieron la peatonal. La llegada del huracán Iota (de categoría 5) al archipiélago de San Andrés y Providencia se demoró más de lo que creían los habitantes de la zona. Y los efectos de su visita aún se están descubriendo. “Nosotros esperábamos esa afectación el sábado, pero no llegó. "
-        }
-
-    ]
-},
-{
-    "id":2,
-    "title": "Salud",
-    "noticia":[
-        {
-        "idNoticia":3,
-        "preview":"Coronavirus: ¿cuándo una persona enferma de covid-19 deja de ser contagiosa (tenga o no síntomas)?",
-        "img": "https://ichef.bbci.co.uk/news/800/cpsprodpb/3D55/production/_115210751_spike4.jpg",
-        "categoria":"Covid19",
-        "contenido":"Mientras San Andrés, Providencia y Santa Catalina sacan fuerzas para recuperarse del huracán Iota , son muchos los testimonios que se siguen conociendo, relatos de horror. Nicolás Gómez, instructor de buceo, estaba con 12 turistas cuando la situación comenzó a empeorar: la isla se estremecía y lo peor estaba por venir. Por eso buscaron donde resguardarse. “Fue una noche muy difícil, mucha agua le entraba al refugio. Nosotros estábamos bien, no le pasó nada estructuralmente, pero entraba mucha agua. Una noche muy difícil: el viento era increíble, los sonidos, los rayos, los truenos, todo era impresionante, caían árboles, oíamos que volaban techos, pero no veíamos absolutamente nada”, recuerda Gómez. No es exageración, Aileen Ortiz, otra afectada, puede dar fe de ello."
-        }
-
-    ]
-}
+    {
+        "id": 1,
+        "title": "Clima",
+        "noticia": [
+            {
+                "idNoticia": 1,
+                "preview": "Los rayos, los truenos, todo era impresionante así fueron las horas de terror en Providencia Un instructor de buceo que estaba con 12 turistas contó la angustia vivida en uno de los refugios durante el paso del huracán Iota.",
+                "img": "https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2020/11/17/5fb4096f90e75.r_1605638314987.0-4-1024-512.jpeg",
+                "categoria": [
+                    {
+                        "nombre": "Desastres"
+                    },
+                    {
+                        "nombre": "Tormenta"
+                    },
+                    {
+                        "nombre": "Huracan"
+                    }
+                ],
+                "contenido": "Mientras San Andrés, Providencia y Santa Catalina sacan fuerzas para recuperarse del huracán Iota , son muchos los testimonios que se siguen conociendo, relatos de horror. Nicolás Gómez, instructor de buceo, estaba con 12 turistas cuando la situación comenzó a empeorar: la isla se estremecía y lo peor estaba por venir. Por eso buscaron donde resguardarse. “Fue una noche muy difícil, mucha agua le entraba al refugio. Nosotros estábamos bien, no le pasó nada estructuralmente, pero entraba mucha agua. Una noche muy difícil: el viento era increíble, los sonidos, los rayos, los truenos, todo era impresionante, caían árboles, oíamos que volaban techos, pero no veíamos absolutamente nada”, recuerda Gómez. No es exageración, Aileen Ortiz, otra afectada, puede dar fe de ello."
+            },
+            {
+                "idNoticia": 2,
+                "preview": "El presidente Iván Duque recorrió este martes San Andrés y Providencia y aseguró que la prioridad será reconstruir viviendas, remover escombros y restablecer el servicio de agua tras el paso de Iota en la madrugada del lunes. ",
+                "img": "https://www.elespectador.com/resizer/Quz5NSvdBB_TdNCtXN2HEF7TSXY=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/HMLSWAUJ3VCJPOXG2SAH3GUPUI.jpg",
+                "categoria": [
+                    {
+                        "nombre": "Politica"
+                    }
+                ],
+                "contenido": "Los habitantes de San Andrés y Providencia vivieron el verdadero terror. Sin comunicaciones, atemorizados, evadiendo el sueño y encerrados en los baños. El servicio de electricidad en San Andrés se perdió en varias zonas desde la madrugada del pasado lunes y en sectores como San Luis, el Cove y Backers Hill, por ejemplo, los raizales siguen a oscuras. El mar rugía, postes cayeron, techos de láminas volaron. Los árboles cerca a las viviendas frágiles amenazaban con desplomarse. Fuertes olas erosionaron parte de la vía circunvalar y cubrieron la peatonal. La llegada del huracán Iota (de categoría 5) al archipiélago de San Andrés y Providencia se demoró más de lo que creían los habitantes de la zona. Y los efectos de su visita aún se están descubriendo. “Nosotros esperábamos esa afectación el sábado, pero no llegó. "
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Salud",
+        "noticia": [
+            {
+                "idNoticia": 3,
+                "preview": "Coronavirus: ¿cuándo una persona enferma de covid-19 deja de ser contagiosa (tenga o no síntomas)?",
+                "img": "https://ichef.bbci.co.uk/news/800/cpsprodpb/3D55/production/_115210751_spike4.jpg",
+                "categoria": [
+                    {
+                        "nombre": "Covid 19"
+                    },
+                    {
+                        "nombre": "Enfermedad"
+                    }
+                ],
+                "contenido": "Mientras San Andrés, Providencia y Santa Catalina sacan fuerzas para recuperarse del huracán Iota , son muchos los testimonios que se siguen conociendo, relatos de horror. Nicolás Gómez, instructor de buceo, estaba con 12 turistas cuando la situación comenzó a empeorar: la isla se estremecía y lo peor estaba por venir. Por eso buscaron donde resguardarse. “Fue una noche muy difícil, mucha agua le entraba al refugio. Nosotros estábamos bien, no le pasó nada estructuralmente, pero entraba mucha agua. Una noche muy difícil: el viento era increíble, los sonidos, los rayos, los truenos, todo era impresionante, caían árboles, oíamos que volaban techos, pero no veíamos absolutamente nada”, recuerda Gómez. No es exageración, Aileen Ortiz, otra afectada, puede dar fe de ello."
+            }
+        ]
+    }
 ]
