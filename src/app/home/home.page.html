@@ -17,14 +17,14 @@
       </ion-col>
     </ion-row>
 
-    <ion-row class="body" *ngFor="let n of noticia[i]; let i = index">
+    <ion-row class="body" *ngFor="let n of s.noticia; let i = index">
       <ion-col >
         <img [src]="n.img" alt="">
       </ion-col>
       <ion-col  class="content">
         {{n.preview}}
         <br>
-        <ion-chip *ngFor="let c of categoria[i]">
+        <ion-chip *ngFor="let c of n.categoria; let i= index">
           <ion-label>{{c.nombre}}</ion-label>
         </ion-chip>
       </ion-col>

@@ -22,7 +22,7 @@ export class HomePage implements OnInit {
     this.section = this.noticiasService.getSection();
     this.noticia = this.noticiasService.getNoticias();
     this.categoria = this.noticiasService.getCategorias();
-    //console.log(this.noticia);
+    console.log(this.categoria);
   }
 
   ngOnInit() {
