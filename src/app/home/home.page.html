@@ -10,21 +10,22 @@
 <ion-content>
   <ion-searchbar showCancelButton="always"></ion-searchbar>
 
-  <ion-grid class="section" *ngFor="let s of section; let i = index">
+  <ion-grid class="section" *ngFor="let s of section">
     <ion-row class="header">
-      <ion-col class="title" id="{{'a'+i}}">
+      <ion-col class="title">
         {{s.title}}
       </ion-col>
     </ion-row>
 
-    <ion-row class="body" *ngFor="let n of s.noticia; let i = index">
+    <ion-row class="body" *ngFor="let n of s.noticia">
       <ion-col >
         <img [src]="n.img" alt="">
       </ion-col>
       <ion-col  class="content">
         {{n.preview}}
+        <a href="../detalle/detalle.component.html/{{n.idNoticia}}">Ver más</a>
         <br>
-        <ion-chip *ngFor="let c of n.categoria; let i= index">
+        <ion-chip *ngFor="let c of n.categoria">
           <ion-label>{{c.nombre}}</ion-label>
         </ion-chip>
       </ion-col>

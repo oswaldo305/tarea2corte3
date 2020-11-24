@@ -20,9 +20,8 @@ export class HomePage implements OnInit {
 
   constructor(public noticiasService:NoticiasService) { 
     this.section = this.noticiasService.getSection();
-    this.noticia = this.noticiasService.getNoticias();
-    this.categoria = this.noticiasService.getCategorias();
-    console.log(this.categoria);
+
+   
   }
 
   ngOnInit() {
