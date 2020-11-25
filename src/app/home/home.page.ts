@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
   
   section:Array<SectionsI> = [];
   noticia:Array<NoticiasI> = [];
-  categoria:Array<CategoriasI> = [];
+  buscartexto = '';
 
 
   constructor(public noticiasService:NoticiasService) { 
@@ -28,5 +28,7 @@ export class HomePage implements OnInit {
 
   }
 
-
+  buscar(event){
+    this.buscartexto = event.detail.value;
+  }
 }
