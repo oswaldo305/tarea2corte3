@@ -9,4 +9,31 @@
 
 <ion-content>
 
+  <ion-content>
+  
+  
+    <ion-grid class="section">
+      <ion-row class="header">
+        <ion-col class="title">
+          {{titulo}}
+        </ion-col>
+      </ion-row>
+  
+      <ion-row class="body" *ngFor="let n of noticia[0]">
+        <ion-col size="12">
+          <img [src]="n.img" alt="">
+        </ion-col>
+        <ion-col  class="content">
+          {{n.contenido}}
+          <br>
+          <ion-chip *ngFor="let c of n.categoria">
+            <ion-label>{{c.nombre}}</ion-label>
+          </ion-chip>
+        </ion-col>
+      </ion-row>
+  
+    </ion-grid>
+  
+  
+
 </ion-content>
