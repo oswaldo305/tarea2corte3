@@ -9,7 +9,7 @@
 
 <ion-content>
   <ion-searchbar showCancelButton="always" animated (ionChange)="buscar($event)"></ion-searchbar>
-
+    
   <ion-grid class="section" *ngFor="let s of section">
     <ion-row class="header">
       <ion-col class="title">
@@ -25,7 +25,7 @@
         {{n.preview}}
         <a href="detalle/{{n.idNoticia}}/{{s.title}}">Ver más</a>
         <br>
-        <ion-chip *ngFor="let c of n.categoria | filtro: buscartexto">
+        <ion-chip *ngFor="let c of n.categoria">
           <ion-label>{{c.nombre}}</ion-label>
         </ion-chip>
       </ion-col>
